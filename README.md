@@ -6,7 +6,7 @@
 > discuss this on slack or in class, but when it comes to writing the code,
 > you are expected to write it yourself (and not just copy from someone).
 
-1. Write a class called `Rectangle`.  Have the constructor take the
+1. Write a `class` called `Rectangle` (not a `struct`!).  Have the constructor take the
    length and height and write *member functions* to compute and
    return the area and perimeter, and another member function
    `is_square()` that returns `true` if the rectangle is also a
@@ -58,9 +58,9 @@
      Vector2d operator/ (double a);
      ```
 
-   * An `abs()` function that returns the vector magnitude.
+   * An `abs()` member function that returns the vector magnitude.
 
-   * A `dot()` function that takes another vector and computes the dot
+   * A `dot()` member function that takes another vector and computes the dot
      product, returning a scalar.
 
   Write a `main()` that exercises all of these functions.
