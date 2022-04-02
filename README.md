@@ -15,7 +15,7 @@
    You should be able to do something like this:
 
    ```
-   rect = Rectange(1.0, 2.0);
+   Rectangle rect(1.0, 2.0);
    double area = rect.area();
    ```
 
